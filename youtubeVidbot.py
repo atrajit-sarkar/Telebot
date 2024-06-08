@@ -6,7 +6,7 @@ import shutil
 import time
 
 dir=os.getcwd()
-bot=telebot.TeleBot("7484977263:AAEF-_PKTTvRrpRpcXAuSVFJqGq9aX7hm1g")
+bot=telebot.TeleBot("")   #Use your bot api token here
 
 @bot.message_handler(commands=['start'])
 def start(message):
