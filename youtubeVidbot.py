@@ -140,7 +140,7 @@ def storeIssue(message):
         with open(fr"{dir}/issue.csv","a") as f:
             f.write(f"\n{message.chat.id},{message.chat.username},{issue}")
         with open(fr"{dir}/issue.csv","rb") as f:
-            bot.send_document("2118483701",f)
+            bot.send_document("",f) #Use you primary account chat id here.....
         bot.reply_to(message,"Thanks for your feedback. If there is any issue we will fix soon and if all is fine we are glad to have you. Keep sharing the bot and enjoy together.")
     except:
         bot.reply_to(message,"Please don't provide emojis and stickers.Thank you..")
