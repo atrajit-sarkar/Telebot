@@ -6,7 +6,7 @@ import shutil
 import time
 
 dir=os.getcwd()
-bot=telebot.TeleBot("7484977263:AAEF-_PKTTvRrpRpcXAuSVFJqGq9aX7hm1g")
+bot=telebot.TeleBot("")
 
 @bot.message_handler(commands=['start'])
 def start(message):
@@ -150,7 +150,9 @@ def quite(message):
 
 
 
+while True:
+    bot.polling()
 
-bot.polling(long_polling_timeout=3600)
+# bot.polling(long_polling_timeout=3600)
 # time.sleep(2)
 # os.remove("outfile")
