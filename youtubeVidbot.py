@@ -151,8 +151,10 @@ def quite(message):
 
 
 while True:
-    bot.polling()
-
+    try:
+        bot.polling()
+    except:
+        print("")
 # bot.polling(long_polling_timeout=3600)
 # time.sleep(2)
 # os.remove("outfile")
