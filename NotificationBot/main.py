@@ -1,6 +1,6 @@
 import telebot
 import time
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 
 
 bot=telebot.TeleBot(TELEBOT_API.READ_API())

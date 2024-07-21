@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler
 import schedule
 import time
 import threading
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 # Replace 'YOUR_TOKEN' with your actual bot token
 updater = Updater(TELEBOT_API.READ_API(),update_queue=None)
 dispatcher = updater.start_polling()

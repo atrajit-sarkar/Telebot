@@ -1,6 +1,6 @@
 import pyfiglet
 import telebot
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 
 
 

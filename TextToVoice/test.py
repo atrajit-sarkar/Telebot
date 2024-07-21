@@ -2,7 +2,7 @@ from text_to_speech import audio_converter
 import telebot
 import os
 import time
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 
 bot=telebot.TeleBot(TELEBOT_API.READ_API('@TTVCvnwjvhwvbceyBot'))
 

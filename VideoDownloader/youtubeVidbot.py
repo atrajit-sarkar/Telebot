@@ -5,7 +5,7 @@ import os
 import shutil
 import time
 import subprocess
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 
 dir=os.getcwd()
 bot=telebot.TeleBot(TELEBOT_API.READ_API('@VideoDownloader1729Bot'))

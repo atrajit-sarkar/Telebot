@@ -4,7 +4,7 @@ import os
 import time
 import shutil
 from requests.exceptions import ConnectionError
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 
 
 dir=r"D:\downloads\Python\Projects\Telebot\WhatsappChatfiler\byebye"

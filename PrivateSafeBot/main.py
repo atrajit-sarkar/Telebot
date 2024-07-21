@@ -2,7 +2,7 @@ import telebot
 import os
 import time
 from requests.exceptions import ConnectionError
-from Atrmaths import TELEBOT_API
+from Atr.Telebot import TELEBOT_API
 
 
 dir=os.getcwd()
